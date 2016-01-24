@@ -1,0 +1,38 @@
+section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div {
+  width: 80%;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+}
+
+.class_head {
+  flex-direction: column;
+}
+
+.lab_name, .course_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lab_course {
+  width: auto;
+  margin: 1%;
+}
+
+table {
+  text-align: center;
+  /*border-collapse: collapse;*/
+}
+
+th, td {
+  min-width: 150px;
+  min-height: 20px;
+  border: 1px solid black;
+}
